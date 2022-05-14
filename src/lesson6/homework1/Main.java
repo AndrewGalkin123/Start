@@ -23,7 +23,6 @@ public class Main {
             }
             System.out.println(actionMessage);
             input = INPUTPARAMS.nextLine();
-
         }
         try {
             System.out.println("Gun attacker?");
