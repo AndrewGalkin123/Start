@@ -39,7 +39,7 @@ public class Converting {
                     return new Fahrenheit();
                 case "kelvin":
                     System.out.println("Enter degree in Celsius format");
-                    ConvertItem.getDegreeForKelvin = inputParams.nextFloat();
+                    ConvertItem.degreeForKelvin = inputParams.nextFloat();
                     return new Kelvin();
             }
             System.out.println("Incorrect choice type " + choice + ". Try again");

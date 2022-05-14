@@ -4,6 +4,6 @@ public class Kelvin extends ConvertItem{
 
     @Override
     public void convert(){
-        System.out.println(ConvertItem.getDegreeForKelvin + 273.15);
+        System.out.println(ConvertItem.degreeForKelvin + 273.15);
     }
 }
