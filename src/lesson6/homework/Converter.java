@@ -1,5 +1,5 @@
 package lesson6.homework;
 
 public interface Converter {
-   void convert();
+   void convert(float degree);
 }
