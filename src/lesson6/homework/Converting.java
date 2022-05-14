@@ -35,11 +35,11 @@ public class Converting {
             switch (choice.toLowerCase(Locale.ROOT).trim()) {
                 case "fahrenheit":
                     System.out.println("Enter degree in Celsius format");
-                    ConvertItem.degree = inputParams.nextFloat();
+                    ConvertItem.degreeForFahrenheit = inputParams.nextFloat();
                     return new Fahrenheit();
                 case "kelvin":
                     System.out.println("Enter degree in Celsius format");
-                    ConvertItem.degree = inputParams.nextFloat();
+                    ConvertItem.getDegreeForKelvin = inputParams.nextFloat();
                     return new Kelvin();
             }
             System.out.println("Incorrect choice type " + choice + ". Try again");
