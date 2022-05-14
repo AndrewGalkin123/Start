@@ -15,6 +15,7 @@ public class Converting {
         while("choose".equals(input.toLowerCase(Locale.ROOT).trim())) {
             try {
                 ConvertItem convertItem = createTemperatureObject();
+                assert convertItem != null;
                 convertItem.convert(degree);
                 System.out.println(actionMessage);
                 input = inputParams.nextLine();
